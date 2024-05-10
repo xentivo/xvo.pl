@@ -10,8 +10,6 @@ defaults:
 on:
   push:
     branches: [ "bugfix/*", "feature/*", "develop" ]
-    paths:
-      - *
 
 jobs:
   lint:
